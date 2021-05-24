@@ -4,6 +4,8 @@ div.Header {
   padding: 2em;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 div.Header > span.logo > a {

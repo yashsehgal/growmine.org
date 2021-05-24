@@ -27,6 +27,13 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+}
+
+
 body {
   color: inherit;
   line-height: 1.3;

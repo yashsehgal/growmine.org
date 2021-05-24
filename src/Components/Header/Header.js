@@ -1,5 +1,5 @@
 
-import { Route, HashRouter, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import "../../Styles/main.css"
 
 const Header = () => {
@@ -7,33 +7,33 @@ const Header = () => {
     <div className="Header appContainer">
       <HashRouter basename="/">
         <span className="logo">
-          <a href="/">
+          <Link to="/">
             Growmine<text>.org</text>
-          </a>
+          </Link>
         </span>
         <div className="header-options-container">
           <ul className="header-options-list">
             <li className="header-option">
-              <a href="/explore">
+              <Link to="/explore">
                 Explore
-              </a>
+              </Link>
             </li>
             <li className="header-option">
-              <a href="/contribute">
+              <Link to="/contribute">
                 Contribute
-              </a>
+              </Link>
             </li>
             <li className="header-option">
-              <a href="/login">
+              <Link to="/login">
                 Login
-              </a>
+              </Link>
             </li>
             <li className="header-option">
-              <a href="/create-account">
+              <Link to="/create-account/community">
                 <button className="primaryButton">
                   Create an Account
                 </button>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
