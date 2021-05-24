@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/growmine.org/static/css/main.f68cc9c9.chunk.css",
-    "main.js": "/growmine.org/static/js/main.3210524f.chunk.js",
-    "main.js.map": "/growmine.org/static/js/main.3210524f.chunk.js.map",
+    "main.css": "/growmine.org/static/css/main.37835c0c.chunk.css",
+    "main.js": "/growmine.org/static/js/main.1e94ad35.chunk.js",
+    "main.js.map": "/growmine.org/static/js/main.1e94ad35.chunk.js.map",
     "runtime-main.js": "/growmine.org/static/js/runtime-main.33bd4d24.js",
     "runtime-main.js.map": "/growmine.org/static/js/runtime-main.33bd4d24.js.map",
     "static/js/2.2e9e495d.chunk.js": "/growmine.org/static/js/2.2e9e495d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0dd9b859.chunk.js": "/growmine.org/static/js/3.0dd9b859.chunk.js",
     "static/js/3.0dd9b859.chunk.js.map": "/growmine.org/static/js/3.0dd9b859.chunk.js.map",
     "index.html": "/growmine.org/index.html",
-    "static/css/main.f68cc9c9.chunk.css.map": "/growmine.org/static/css/main.f68cc9c9.chunk.css.map",
+    "static/css/main.37835c0c.chunk.css.map": "/growmine.org/static/css/main.37835c0c.chunk.css.map",
     "static/js/2.2e9e495d.chunk.js.LICENSE.txt": "/growmine.org/static/js/2.2e9e495d.chunk.js.LICENSE.txt",
     "static/media/main.css": "/growmine.org/static/media/bg_gray.b8c8caa6.svg",
     "static/media/global_community_image.d54a8855.svg": "/growmine.org/static/media/global_community_image.d54a8855.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.33bd4d24.js",
     "static/js/2.2e9e495d.chunk.js",
-    "static/css/main.f68cc9c9.chunk.css",
-    "static/js/main.3210524f.chunk.js"
+    "static/css/main.37835c0c.chunk.css",
+    "static/js/main.1e94ad35.chunk.js"
   ]
 }
