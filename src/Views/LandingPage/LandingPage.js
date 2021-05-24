@@ -1,11 +1,15 @@
 
+import { HashRouter, Link } from "react-router-dom";
+
 // importing videos and images as components
 import IntroductionIllustrationImage from "../../Assets/intro_illustration_image.svg"
 import MentorVideo from "../../Assets/mentor_video.mp4"
+import GlobalCommunityImage from "../../Assets/global_community_image.svg"
 
 const LandingPage = () => {
   return (
     <div className="LandingPage appContainer">
+      <HashRouter basename="/">
       <div className="introduction-section">
         <div className="introduction-section-01">
         <h1>
@@ -23,7 +27,9 @@ const LandingPage = () => {
           
           <button className="primaryButton"
             id="create-account-community-button">
-              Create a Community Account
+              <Link to="/create-account/community">
+                Create a Community Account
+              </Link>
             </button>
 
           <button className="secondaryButton"
@@ -62,12 +68,41 @@ const LandingPage = () => {
         <div className="why-growmine-section-02">
           <video src={MentorVideo}
             controls="controls" 
-            autoplay="true" 
+            autoplay="true"
             id="mentor-video"
             />
         </div>
-      </div>
 
+      </div>
+      
+      {/* Global Mentorship and Community Section */}
+      <div className="global-community-section">
+        <div className="global-community-section-02">
+          <img src={GlobalCommunityImage}
+            id="global-community-image"
+            alt="global-community-image" />
+        </div>
+        <div className="global-community-section-01">
+          <h2>
+            Build and <text>Teach</text> a Global Community
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius sunt, tenetur illum enim veritatis voluptate veniam laboriosam vitae sed velit hic assumenda commodi! Error in veritatis architecto praesentium iste labore quis sunt maiores quos eum! Doloremque a porro aut unde quis explicabo quibusdam nobis nostrum fugit beatae? Doloremque magni eum eius debitis non sequi ratione! Suscipit blanditiis magni quam.
+          </p>
+          <div className="button_layer-horizontal">
+            <button className="primaryButton"
+              id="create-account-button">
+                Join Today! Create a new Account
+              </button>
+
+            <button className="secondaryButton"
+              id="explore-mentors">
+                Explore Mentors, Local Communities and Topics
+              </button>
+          </div>
+        </div>
+      </div>
+    </HashRouter>
     </div>
   )
 }

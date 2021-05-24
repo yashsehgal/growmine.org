@@ -1,5 +1,5 @@
 
-import { Route, HashRouter, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import "../../Styles/main.css"
 
 const Header = () => {
@@ -29,11 +29,11 @@ const Header = () => {
               </a>
             </li>
             <li className="header-option">
-              <a href="/create-account">
+              <Link to="/create-account/community">
                 <button className="primaryButton">
                   Create an Account
                 </button>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

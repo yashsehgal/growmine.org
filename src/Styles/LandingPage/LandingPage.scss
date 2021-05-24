@@ -21,6 +21,10 @@ div.LandingPage > div.introduction-section > div.introduction-section-01 {
 
   > div.button_layer-vertical > button {
     margin-top: 1.4em;
+    
+    * {
+      color: white;
+    }
   }
 }
 
@@ -33,14 +37,15 @@ div.LandingPage > div.introduction-section > div.introduction-section-02 {
 // why growmine section CSS
 
 div.LandingPage > div.why-growmine-section {
-  margin-top: 12em;
+  margin-top: 16em;
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
 
-  div.why-growmine-section-01 {
+  > div.why-growmine-section-01 {
     
     > p {
+      margin-top: 1.4em;
       width: 80%;
       text-align: justify;
       color: var(--app-color-black);
@@ -72,5 +77,162 @@ div.LandingPage > div.why-growmine-section {
   > div.why-growmine-section-02 > video#mentor-video {
     width: 600px;
     height: 100%;
+  }
+}
+
+div.LandingPage > div.global-community-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 16em;
+
+
+  > div.global-community-section-01 {
+    text-align: right;
+    > p {
+      margin-top: 1.4em;
+      margin-left: 4em;
+      text-align: right;
+      color: var(--app-color-black);
+    }
+
+    > h2 {
+      font-size: 36px;
+      color: var(--app-color-black);
+
+      > text {
+        color: var(--app-color-blue);
+      }
+    }
+
+    > div.button_layer-horizontal {
+      display: inline-block;
+      margin-top: 1em;
+
+      > button {
+        margin-left: 1em;
+      }
+    }
+  }
+
+  > div.global-community-section-02 {
+    > img#global-community-image {
+      width: 650px;
+      box-shadow: 4px 4px 24px rgba(128, 128, 128, 0.264);
+    }
+  }
+}
+
+// responsive CSS for mobile/tab users
+@media screen and (max-width: 1255px) {
+  div.LandingPage {
+    > div.introduction-section {
+      display: block;
+
+      > div.introduction-section-01 {
+        text-align: center;
+
+        > h1 {
+          font-size: 42px;
+          padding: 0.4em;
+        }
+
+        > div.button_layer-vertical {
+          margin-right: auto;
+          margin-left: auto;
+          width: 60%;
+        }
+      }
+
+      > div.introduction-section-02 {
+        margin-top: 6em;
+        text-align: center;
+
+        > img {
+          width: 360px;
+        }
+      }
+    }
+
+    > div.why-growmine-section {
+      display: block;
+      margin-top: 4em;
+      > div.why-growmine-section-01 {
+        text-align: center;
+        
+        > h2 {
+          padding: 0.4em;
+        }
+
+        > p {
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+          width: 90%;
+          padding: 0.4em;
+        }
+
+        > div.button_layer-horizontal {
+          margin-right: auto;
+          margin-left: auto;
+          display: inline-grid;
+          width: 60%;
+
+          > button {
+            margin-top: 1em;
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+          }
+        }
+      }
+
+      > div.why-growmine-section-02 {
+        margin-top: 4em;
+        text-align: center;
+
+        > video#mentor-video {
+          width: 400px;
+        }
+      }
+    }
+
+    > div.global-community-section {
+      display: block;
+      margin-top: 6em;
+      
+      > div.global-community-section-01 {
+        text-align: center;
+
+        > p {
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center;
+          width: 80%;
+          padding: 0.4em;
+        }
+
+        > div.button_layer-horizontal {
+          margin-right: auto;
+          margin-left: auto;
+          display: inline-grid;
+          width: 60%;
+
+          > button {
+            margin-top: 1em;
+            margin-right: auto;
+            margin-left: auto;
+            width: 100%;
+          }
+        }
+      }
+
+      > div.global-community-section-02 {
+        text-align: center;
+        > img#global-community-image {
+          width: 400px;
+        }
+      }
+
+    }
   }
 }
