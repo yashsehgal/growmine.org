@@ -1,0 +1,76 @@
+
+div.LandingPage > div.introduction-section {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+div.LandingPage > div.introduction-section > div.introduction-section-01 {
+  display: block;
+
+  > h1 {
+    font-size: 64px;
+    color: var(--app-color-black);
+  }
+
+  > div.button_layer-vertical {
+    margin-top: 1em;
+    width: 34%;
+  }
+
+  > div.button_layer-vertical > button {
+    margin-top: 1.4em;
+  }
+}
+
+div.LandingPage > div.introduction-section > div.introduction-section-02 {
+  > img {
+    width: 560px;
+  }
+}
+
+// why growmine section CSS
+
+div.LandingPage > div.why-growmine-section {
+  margin-top: 12em;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+
+  div.why-growmine-section-01 {
+    
+    > p {
+      width: 80%;
+      text-align: justify;
+      color: var(--app-color-black);
+    }
+
+    > h2 {
+      font-size: 36px;
+      color: var(--app-color-black);
+
+      > text {
+        color: var(--app-color-blue);
+      }
+    }
+
+    div.button_layer-horizontal {
+      margin-top: 1em;
+      > button {
+        margin-right: 2em;
+        display: flex;
+        align-items: center;
+
+        > i {
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+
+  > div.why-growmine-section-02 > video#mentor-video {
+    width: 600px;
+    height: 100%;
+  }
+}

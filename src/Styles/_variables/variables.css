@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=variables.css.map */
+:root {
+  --app-font: "Raleway", sans-serif;
+  --app-color-black: #2C2C2C;
+  --app-color-blue: #001AFF;
+  --app-color-white: #fcfcfc;
+}
+/*# sourceMappingURL=variables.css.map */
