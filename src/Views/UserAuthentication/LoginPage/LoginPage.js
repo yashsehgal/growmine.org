@@ -14,8 +14,7 @@ const LoginPage = () => {
           </h2>
           <p id="login-description">
             Don't have an account? <br />
-            <Link to="/create-account/community"><text className="link">Create Community Account</text></Link>, 
-            <Link to="/create-account/mentor"><text className="link">Create Mentor Account</text></Link>
+            <Link to="/create-account/community"><text className="link">Create Community Account</text></Link>, <Link to="/create-account/mentor"><text className="link">Create Mentor Account</text></Link>
           </p>
 
           <form action="" method="POST" autoComplete="on" className="login-community-form">

@@ -32,6 +32,13 @@ const CreateAccount_Community = () => {
                   required="Your Email Address is required" />
               </div>
               <div className="form-action">
+                <label name="community-mobile">Contact/Phone Number</label>
+                <input type="tel"
+                  className="input-box"
+                  placeholder="+91 9092437****"
+                  required />
+              </div>
+              <div className="form-action">
                 <label name="location">Location</label>
                 <input type="text"
                   className="input-box"
