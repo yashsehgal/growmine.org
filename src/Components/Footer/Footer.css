@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+.container {
+  background-color: black;
+  margin: 2em 0 0 0;
+}
+
+.container > .logo {
+  text-align: center;
+}
+
+.container > .logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.container > .logo a text {
+  color: var(--app-color-blue);
+  font-size: 28px;
+}
+
+.container > .content {
+  text-align: center;
+  -ms-grid-column-align: unset;
+      justify-self: unset;
+}
+
+.content > ul > li {
+  list-style: none;
+  padding: 0.4em 0 0.4em 0;
+}
+
+.content > ul > li > a {
+  color: var(--app-color-white);
+}
+/*# sourceMappingURL=Footer.css.map */
