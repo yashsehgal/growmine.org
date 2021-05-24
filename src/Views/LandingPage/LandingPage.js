@@ -22,7 +22,9 @@ const LandingPage = () => {
           
           <button className="solidButton"
             id="login-button">
-              Login to your Account
+              <Link to="/login">
+                Login to your Account
+              </Link>
             </button>
           
           <button className="primaryButton"
@@ -34,7 +36,9 @@ const LandingPage = () => {
 
           <button className="secondaryButton"
             id="create-account-mentor-button">
-              Create a Mentor Account
+              <Link to="/create-account/mentor">
+                Create a Mentor Account
+              </Link>
             </button>
         </div>
         </div>

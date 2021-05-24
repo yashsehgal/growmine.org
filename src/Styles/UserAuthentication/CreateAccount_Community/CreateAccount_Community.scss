@@ -62,14 +62,20 @@ div.CreateAccount_Community {
         }
       }
 
-      > div.form-action-flex.button_layer-horizontal {
-        > button {
-          margin-right: auto;
-          margin-left: auto;
+    }
+
+    > div.form-action-flex.button_layer-horizontal {
+      > button {
+        margin-right: auto;
+        margin-left: auto;
+
+        > * {
+          color: var(--app-color-blue);
         }
       }
     }
   }
+
   > div.BG-section {
     background: url('../../../Assets/bg_gray.svg');
     width: 600px;

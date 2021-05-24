@@ -28,7 +28,7 @@ div.LandingPage > div.introduction-section > div.introduction-section-01 > div.b
 }
 
 div.LandingPage > div.introduction-section > div.introduction-section-01 > div.button_layer-vertical > button * {
-  color: white;
+  color: inherit;
 }
 
 div.LandingPage > div.introduction-section > div.introduction-section-02 > img {

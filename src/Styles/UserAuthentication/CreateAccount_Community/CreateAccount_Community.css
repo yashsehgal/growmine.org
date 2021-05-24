@@ -77,9 +77,13 @@ div.CreateAccount_Community > div.form-container#create-account-community-form-c
   background-color: rgba(255, 255, 255, 0);
 }
 
-div.CreateAccount_Community > div.form-container#create-account-community-form-container > form.create-account-community-form > div.form-action-flex.button_layer-horizontal > button {
+div.CreateAccount_Community > div.form-container#create-account-community-form-container > div.form-action-flex.button_layer-horizontal > button {
   margin-right: auto;
   margin-left: auto;
+}
+
+div.CreateAccount_Community > div.form-container#create-account-community-form-container > div.form-action-flex.button_layer-horizontal > button > * {
+  color: var(--app-color-blue);
 }
 
 div.CreateAccount_Community > div.BG-section {

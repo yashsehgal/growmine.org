@@ -7,26 +7,26 @@ const Header = () => {
     <div className="Header appContainer">
       <HashRouter basename="/">
         <span className="logo">
-          <a href="/">
+          <Link to="/">
             Growmine<text>.org</text>
-          </a>
+          </Link>
         </span>
         <div className="header-options-container">
           <ul className="header-options-list">
             <li className="header-option">
-              <a href="/explore">
+              <Link to="/explore">
                 Explore
-              </a>
+              </Link>
             </li>
             <li className="header-option">
-              <a href="/contribute">
+              <Link to="/contribute">
                 Contribute
-              </a>
+              </Link>
             </li>
             <li className="header-option">
-              <a href="/login">
+              <Link to="/login">
                 Login
-              </a>
+              </Link>
             </li>
             <li className="header-option">
               <Link to="/create-account/community">

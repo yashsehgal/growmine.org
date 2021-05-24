@@ -1,0 +1,16 @@
+div.CreateAccount_Mentor {
+  display: grid;
+  grid-template-columns: 64% auto;
+
+  > div.form-container#create-account-mentor-form-container {
+    margin-bottom: 12em;
+    > h2 {
+      font-size: 36px;
+      color: var(--app-color-black);
+
+      > text {
+        color: var(--app-color-blue);
+      }
+    }
+  }
+}

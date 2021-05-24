@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/growmine.org/static/css/main.646e8356.chunk.css",
+    "main.js": "/growmine.org/static/js/main.5b189368.chunk.js",
+    "main.js.map": "/growmine.org/static/js/main.5b189368.chunk.js.map",
+    "runtime-main.js": "/growmine.org/static/js/runtime-main.33bd4d24.js",
+    "runtime-main.js.map": "/growmine.org/static/js/runtime-main.33bd4d24.js.map",
+    "static/js/2.fe86d45a.chunk.js": "/growmine.org/static/js/2.fe86d45a.chunk.js",
+    "static/js/2.fe86d45a.chunk.js.map": "/growmine.org/static/js/2.fe86d45a.chunk.js.map",
+    "static/js/3.0dd9b859.chunk.js": "/growmine.org/static/js/3.0dd9b859.chunk.js",
+    "static/js/3.0dd9b859.chunk.js.map": "/growmine.org/static/js/3.0dd9b859.chunk.js.map",
+    "index.html": "/growmine.org/index.html",
+    "static/css/main.646e8356.chunk.css.map": "/growmine.org/static/css/main.646e8356.chunk.css.map",
+    "static/js/2.fe86d45a.chunk.js.LICENSE.txt": "/growmine.org/static/js/2.fe86d45a.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/growmine.org/static/media/bg_gray.b8c8caa6.svg",
+    "static/media/global_community_image.d54a8855.svg": "/growmine.org/static/media/global_community_image.d54a8855.svg",
+    "static/media/intro_illustration_image.b6aa61f3.svg": "/growmine.org/static/media/intro_illustration_image.b6aa61f3.svg",
+    "static/media/mentor_video.7d90affa.mp4": "/growmine.org/static/media/mentor_video.7d90affa.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33bd4d24.js",
+    "static/js/2.fe86d45a.chunk.js",
+    "static/css/main.646e8356.chunk.css",
+    "static/js/main.5b189368.chunk.js"
+  ]
+}

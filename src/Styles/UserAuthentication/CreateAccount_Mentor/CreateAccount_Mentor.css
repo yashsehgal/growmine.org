@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=CreateAccount_Mentor.css.map */
+div.CreateAccount_Mentor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 64% auto;
+      grid-template-columns: 64% auto;
+}
+
+div.CreateAccount_Mentor > div.form-container#create-account-mentor-form-container {
+  margin-bottom: 12em;
+}
+
+div.CreateAccount_Mentor > div.form-container#create-account-mentor-form-container > h2 {
+  font-size: 36px;
+  color: var(--app-color-black);
+}
+
+div.CreateAccount_Mentor > div.form-container#create-account-mentor-form-container > h2 > text {
+  color: var(--app-color-blue);
+}
+/*# sourceMappingURL=CreateAccount_Mentor.css.map */

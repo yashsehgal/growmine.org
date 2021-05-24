@@ -66,19 +66,23 @@ const CreateAccount_Community = () => {
                     Confirm Submission
                   </button>
               </div>
-              <div className="button_layer-horizontal form-action-flex">
-
-                <button className="secondaryButton"
-                  id="back-to-home-button">
-                    <i class="fas fa-arrow-left"></i> Back to Home
-                  </button>
-
-                <button className="secondaryButton"
-                  id="create-account-mentor-button">
-                    Create a new Mentor Account
-                  </button>
-              </div>
             </form>
+            <div className="button_layer-horizontal form-action-flex">
+
+              <button className="secondaryButton"
+                id="back-to-home-button">
+                  <Link to="/">
+                    <i class="fas fa-arrow-left"></i> Back to Home
+                  </Link>
+                </button>
+
+              <button className="secondaryButton"
+                id="create-account-mentor-button">
+                  <Link to="/create-account/mentor">
+                    Create a new Mentor Account
+                  </Link>
+                </button>
+            </div>
           </div>
 
           {/* BG Color Section */}
