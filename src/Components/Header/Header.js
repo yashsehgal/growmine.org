@@ -1,6 +1,7 @@
 
 import { HashRouter, Link } from "react-router-dom";
 import "../../Styles/main.css"
+import ProfileHeaderImage from "../../Assets/Blue.jpg"
 
 const Header = () => {
   return (
@@ -44,10 +45,41 @@ const Header = () => {
 
 const ProfileHeader = () => {
   return (
-    <div className="ProfileHeader">
+   <div className="ProfileHeader appContainer">
+      <HashRouter basename="/">
+        <span className="logo">
+          <Link to="/">
+            Growmine<text>.org</text>
+          </Link>
+        </span>
+        <div className="header-options-container">
+          <ul className="header-options-list">
+            <li className="header-option">
+              <Link to="/explore">
+                Explore
+              </Link>
+            </li>
+            <li className="header-option">
+              <Link to="/contribute">
+                Contribute
+              </Link>
+            </li>
+            <li className="header-option">
+              <img className="ProfileHeader-image" src ={ProfileHeaderImage}/>
+            </li>
+            <li className="header-option">
+              <Link to="/create-account/community">
+                <button className="primaryButton">
+                  Logout
+                </button>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </HashRouter>
+   </div>
 
-    </div>
   )
 };
 
-export default Header
+export default ProfileHeader

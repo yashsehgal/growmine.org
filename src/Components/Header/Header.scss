@@ -39,3 +39,53 @@ div.Header > div.header-options-container > ul.header-options-list > li.header-o
     color: var(--app-color-blue);
   }
 }
+
+
+// Profile Header
+
+div.ProfileHeader {
+  font-family: var(--app-font);
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+div.ProfileHeader > span.logo > a {
+  color: black;
+  font-weight: 600;
+}
+
+div.ProfileHeader > span.logo > a > text {
+  color: var(--app-color-blue);
+}
+
+div.ProfileHeader > div.header-options-container {
+  margin-left: auto;
+}
+
+div.ProfileHeader > div.header-options-container > ul.header-options-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+div.ProfileHeader > div.header-options-container > ul.header-options-list > li.header-option {
+  margin-right: 12px;
+  margin-left: 12px;
+
+  > a {
+    color: black;
+  }
+
+  > a:hover {
+    color: var(--app-color-blue);
+  }
+}
+
+.ProfileHeader-image{
+  width: 55px;
+  border-radius: 100%;
+
+}
