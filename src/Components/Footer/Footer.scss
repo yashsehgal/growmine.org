@@ -1,37 +1,43 @@
 
-.container{
-	
-	margin:1em 0 0 0;
-    background-color: black;
-    padding: 1em;
+.container {
+	margin: 1em 0 0 0;
+  background-color: black;
+  padding: 1em;
 	box-sizing: border-box;
 }
-.row{
+
+.row {
 	display: flex;
 	flex-wrap: wrap;
 }
-ul{
+
+ul {
 	list-style: none;
 }
-.footer{
+
+.footer {
 	background-color: #24262b;
-    padding: 70px 0;
+  padding: 70px 0;
 }
-.footer-col{
-   width: 30%;
-   padding: 0 15px;
-   margin-top: 1em;
+
+.footer-col {
+  width: 30%;
+  padding: 0 15px;
+  margin-top: 1em;
 }
-.footer-col .logo a{
-color: white;
-font-size: 36px;
-font-weight: bold;
+
+.footer-col .logo a {
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
 }
-.footer-col .logo a text{
-    color: blue;
-    font-weight: bold;
+
+.footer-col .logo a text {
+  color: blue;
+  font-weight: bold;
 }
-.footer-col h4{
+
+.footer-col h4 {
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
@@ -40,10 +46,11 @@ font-weight: bold;
 	position: relative;
 }
 
-.footer-col ul li{
+.footer-col ul li {
 	margin-bottom: 5px;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -53,11 +60,12 @@ font-weight: bold;
 	display: block;
 	transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-	color: #ffffff;
 
+.footer-col ul li a:hover {
+	color: #ffffff;
 }
-.footer-col .social-links a{
+
+.footer-col .social-links a {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
@@ -69,38 +77,39 @@ font-weight: bold;
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
+
+.footer-col .social-links a:hover {
 	color: #24262b;
 	background-color: #ffffff;
 }
-.copyright
-{
+
+.copyright {
 	color: #c9c9c9;
 	font-size: 12px;
 	text-align: center;
 	margin-top: 2em;
-	
 }
-.footer-col .logo{
- margin-top: 4.5em  ;
- text-align: left;
 
+.footer-col .logo {
+	margin-top: 4.5em;
+ 	text-align: left;
 }
-@media(max-width: 1050px){
-	.footer-col{
-	  width: 50%;
-	  margin-bottom: 30px;
+
+@media screen and (max-width: 1050px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+		text-align: center;
+  }
+
+  .Footer {
 	  text-align: center;
-	  
   }
-  .Footer{
-	  text-align: center;
-	//   display: block;
+
+  .row {
+		display: block;
+	  flex-wrap: 0;
+	 	margin-left: auto;
+	 	margin-right: auto;
   }
-  .row{
-	  display: block;
-	  flex-wrap: nowrap;
-	 margin-left: auto;
-	 margin-right: auto;
-  }
-  }
+}

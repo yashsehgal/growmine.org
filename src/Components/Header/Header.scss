@@ -85,7 +85,8 @@ div.ProfileHeader > div.header-options-container > ul.header-options-list > li.h
 }
 
 .ProfileHeader-image{
-  width: 55px;
-  border-radius: 100%;
-
+  width: 46px;
+  height: 46px;
+  border-radius: 100px;
+  filter: grayscale(90%);
 }

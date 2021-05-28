@@ -54,7 +54,7 @@ const CreateAccount_Community = () => {
               </div>
               <div className="form-action">
                 <label name="community-type">Type of your Community</label>
-                <input type="number"
+                <input type="text"
                   className="input-box"
                   placeholder="What's the type of your Community?" 
                   required="Type of your community is required" />

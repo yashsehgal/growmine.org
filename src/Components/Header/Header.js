@@ -65,7 +65,9 @@ const ProfileHeader = () => {
               </Link>
             </li>
             <li className="header-option">
-              <img className="ProfileHeader-image" src ={ProfileHeaderImage}/>
+              <Link to="/profile/mentor">
+                <img className="ProfileHeader-image" src ={ProfileHeaderImage}/>
+              </Link>
             </li>
             <li className="header-option">
               <Link to="/create-account/community">
