@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=Home.css.map */
+div.MentorSession-Container {
+  margin-top: 2em;
+}
+
+div.MentorSession-Container > div.MentorSession-CardContainer {
+  margin-top: 2em;
+}
+
+div.MentorSession-Container > div.MentorSession-CardContainer > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.Community-Container {
+  margin-top: 2em;
+}
+
+div.Community-Container > div.Community-CardContainer {
+  margin-top: 2em;
+}
+
+div.Community-Container > div.Community-CardContainer > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.MentorProfile-Container {
+  margin-top: 2em;
+}
+
+div.MentorProfile-Container > div.Community-CardContainer {
+  margin-top: 2em;
+}
+
+div.MentorProfile-Container > div.Community-CardContainer > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Home.css.map */

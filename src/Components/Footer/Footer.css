@@ -100,7 +100,7 @@ ul {
   text-align: left;
 }
 
-@media (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
@@ -111,8 +111,8 @@ ul {
   }
   .row {
     display: block;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: 0;
+        flex-wrap: 0;
     margin-left: auto;
     margin-right: auto;
   }

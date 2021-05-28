@@ -5,6 +5,7 @@ import CreateAccount_Mentor from "./Views/UserAuthentication/CreateAccount_Mento
 import LoginPage from "./Views/UserAuthentication/LoginPage/LoginPage";
 import MentorProfile from "./Views/Profile/MentorProfile/MentorProfile";
 import CommunityProfile from "./Views/Profile/CommunityProfile/CommunityProfile";
+import Home from "./Views/Home/Home";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route path="/create-account/mentor" exact component={CreateAccount_Mentor} />
         <Route path="/create-account/community" exact component={CreateAccount_Community} />
         <Route path="/login" exact component={LoginPage} />
+
+        <Route path="/home" exact component={Home} />
 
         <Route path="/profile/mentor" exact component={MentorProfile} />
         <Route path="/profile/community" exact component={CommunityProfile} />

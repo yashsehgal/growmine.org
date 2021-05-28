@@ -1,0 +1,37 @@
+
+div.MentorSession-Container {
+  margin-top: 2em;
+  > div.MentorSession-CardContainer {
+    margin-top: 2em;
+    > div {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+    }
+  }
+}
+
+
+div.Community-Container {
+  margin-top: 2em;
+  > div.Community-CardContainer {
+    margin-top: 2em;
+    > div {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+    }
+  }
+}
+
+div.MentorProfile-Container {
+  margin-top: 2em;
+  > div.Community-CardContainer {
+    margin-top: 2em;
+    > div {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      align-items: center;
+    }
+  }
+}

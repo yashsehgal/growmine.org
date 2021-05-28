@@ -1,0 +1,52 @@
+div.MentorSessionCard {
+  width: 96%;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-shadow: 4px 4px 14px #dadada;
+          box-shadow: 4px 4px 14px #dadada;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+}
+
+div.MentorSessionCard > img.Card-Banner {
+  width: 100%;
+}
+
+div.MentorSessionCard > div.CardBody {
+  padding: 0.8em;
+}
+
+div.MentorSessionCard > div.CardBody > h2.SessionTitle {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+div.MentorSessionCard > div.CardBody > h3.MentorName {
+  font-size: 16px;
+}
+
+div.MentorSessionCard > div.CardBody > span.username-details {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.MentorSessionCard > div.CardBody > p.mentorUsername {
+  color: gray;
+  font-size: 12px;
+}
+
+div.MentorSessionCard > div.CardBody > p.sessionDuration {
+  margin-top: 1em;
+  color: var(--app-color-blue);
+  font-weight: 600;
+}
+
+div.MentorSessionCard:hover {
+  -webkit-box-shadow: 1px 1px 12px #e4e4e4;
+          box-shadow: 1px 1px 12px #e4e4e4;
+}
+/*# sourceMappingURL=MentorSessionCard.component.css.map */

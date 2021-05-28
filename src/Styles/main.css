@@ -12,6 +12,9 @@
 @import url("UserAuthentication/LoginPage/LoginPage.css");
 @import url("../Components/Header/Header.css");
 @import url("../Components/Footer/Footer.css");
+@import url("../Components/MentorSessionCard/MentorSessionCard.component.css");
+@import url("../Components/TagLayer/TagLayer.css");
+@import url("../Components/CommunityCard/CommunityCard.css");
 * {
   text-decoration: none !important;
   margin: 0;
